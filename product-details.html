@@ -101,25 +101,15 @@
 }
 
 @media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        text-align: center;
-        padding: 20px;
-    }
-    .nav-links {
-        margin-top: 15px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .nav-right {
-        margin-top: 15px;
-    }
     .description {
-        width: 90%;
+        width: 100%;
     }
     .gallery {
         grid-template-columns: 1fr;
     }
+    .social-links {
+    justify-content: center;
+}
 }
   </style>
 </head>
@@ -153,10 +143,10 @@
   <main class="content" style="padding-top: 8%;">
     <video class="img-fluid main-video" src="./img/852424-hd_1920_1080_24fps.mp4" autoplay loop></video>
     <div class="row align-items-center">
-      <div class="col-lg-6 text-start">
+      <div class="col-lg-6 text-start order-lg-0 order-1">
         <h1 class="business-name mt-3">Business Name</h1>
       </div>
-      <div class="col-lg-6">
+      <div class="col-lg-6 order-lg-1 order-0">
         <div class="social-links">
             <a href="#"><i class="fab fa-facebook-f"></i></a>
             <a href="#"><i class="fab fa-instagram"></i></a>
