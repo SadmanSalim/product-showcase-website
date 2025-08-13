@@ -785,22 +785,22 @@ background: radial-gradient(circle, rgba(236, 219, 197, 1) 63%, rgba(255, 255, 2
 .product-detail {
   padding-top: 8%;
   height: 100%;
-  background: url(./img/business-bg.png) no-repeat center center/cover;
+  /* background: url(./img/business-bg.png) no-repeat center center/cover; */
 
   /* background: #fff; */
-  /* background: #ffffff;
-background: radial-gradient(circle, rgba(255, 255, 255, 1) 17%, rgba(236, 219, 197, 1) 75%); */
+  background: #ffffff;
+background: radial-gradient(circle, rgba(255, 255, 255, 1) 17%, rgba(236, 219, 197, 1) 75%);
 padding-bottom: 50px;
 }
 .product-detail .company_name h1 {
   font-size: 2rem;
   margin-bottom: 20px;
   font-weight: 500;
-  color: #fff;
+  /* color: #fff; */
 }
-.product-detail .company_name p{
+/* .product-detail .company_name p{
   color: #fff;
-}
+} */
 
 .product-detail .product-image {
   width: 100%;
@@ -823,7 +823,7 @@ padding-bottom: 50px;
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
-  color: #fff;
+  /* color: #fff; */
 }
 .product-info{
   position: relative;
